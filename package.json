@@ -3,26 +3,49 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leekad/react-static-plugin-less"
+  },
+  "keywords": [
+    "react-static",
+    "plugin",
+    "webpack",
+    "less",
+    "less-loader"
+  ],
+  "bugs": {
+    "email": "lekhacduyanh@gmail.com",
+    "url": "https://github.com/leekad/react-static-plugin-less/issues"
+  },
+  "author": {
+    "name": "Alex Le",
+    "email": "lekhacduyanh@gmail.com",
+    "url": "http://duyanhle.com/"
+  },
+  "contributors": [
+    "tannerlinsley"
+  ],
   "scripts": {
-  "build": "babel src --out-dir .",
-  "watch": "babel src --out-dir . -w",
-  "test": "yarn format",
-  "format": "prettier 'src/**/*.js' --write",
-  "preversion": "yarn build"
+    "build": "babel src --out-dir .",
+    "watch": "babel src --out-dir . -w",
+    "test": "yarn format",
+    "format": "prettier 'src/**/*.js' --write",
+    "preversion": "yarn build"
   },
   "devDependencies": {
-  "@babel/cli": "^7.2.3",
-  "@babel/core": "^7.2.2",
-  "@babel/preset-env": "^7.2.3"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
   },
   "dependencies": {
-  "autoprefixer": "^9.4.3",
-  "css-loader": "^2.1.0",
-  "extract-css-chunks-webpack-plugin": "^3.3.0",
-  "less": "^3.9.0",
-  "less-loader": "^4.1.0",
-  "postcss-flexbugs-fixes": "^4.1.0",
-  "semver": "^5.6.0"
+    "autoprefixer": "^9.4.3",
+    "css-loader": "^2.1.0",
+    "extract-css-chunks-webpack-plugin": "^3.3.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "semver": "^5.6.0"
   },
   "gitHead": "ca9f2162257fe67a8b4ffcbb1350695345940da4"
-  }
+}
